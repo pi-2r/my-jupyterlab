@@ -23,8 +23,6 @@ ENV PATH /root/miniconda3/bin:$PATH
 
 WORKDIR /opt/notebook
 
-ADD ta-lib.sh /opt/notebook
-
 #Let's define this parameter to install jupyter lab instead of the default juyter notebook command so we don't have to use it when running the container with the option -e
 ENV JUPYTER_ENABLE_LAB=yes
 

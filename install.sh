@@ -36,7 +36,7 @@ pip install q  # logging and debugging
 pip install plotly  # interactive D3.js plots
 pip install cufflinks  # combining plotly with pandas
 pip install yfinance # Yahoo Finance
-
+pip install oandapyV20 #OANDA REST-V20 API wrapper
 
 # COPYING FILES AND CREATING DIRECTORIES
 mkdir /root/.jupyter
