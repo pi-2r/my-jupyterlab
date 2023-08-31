@@ -37,6 +37,10 @@ pip install plotly  # interactive D3.js plots
 pip install cufflinks  # combining plotly with pandas
 pip install yfinance # Yahoo Finance
 pip install oandapyV20 #OANDA REST-V20 API wrapper
+pip install oanda-candles
+pip install apscheduler
+pip install config
+pip install pandas-ta
 
 # COPYING FILES AND CREATING DIRECTORIES
 mkdir /root/.jupyter
@@ -56,6 +60,13 @@ wget http://prdownloads.sourceforge.net/ta-lib/ta-lib-0.4.0-src.tar.gz \
   && cd .. \
   && sudo rm -rf ta-lib/ \
   && pip install ta-lib
+
+#Install tpqao
+git clone https://github.com/yhilpisch/tpqoa
+cd tpqoa
+python setup.py install
+cd ..
+rm -rf tpqao
 
 # CREATING YOUR OWN PASSWORD
 #jupyter server password
