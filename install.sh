@@ -34,13 +34,14 @@ conda install -y matplotlib  # standard plotting library
 pip install --upgrade pip  # upgrading the package manager
 pip install q  # logging and debugging
 pip install plotly  # interactive D3.js plots
-pip install cufflinks  # combining plotly with pandas
-pip install yfinance # Yahoo Finance
+pip install cufflinks  # combining plotly with pandas and matplotlib
+pip install yfinance # Yahoo Finance market data downloader
 pip install oandapyV20 #OANDA REST-V20 API wrapper
-pip install oanda-candles
-pip install apscheduler
+pip install oanda-candles #OANDA REST-V20 API wrapper
+pip install apscheduler #Advanced Python Scheduler
 pip install config
-pip install pandas-ta
+pip install pandas-ta #Technical Analysis Indicators
+pip install Riskfolio-Lib #Riskfolio-Lib is a Python library for financial risk analysis.
 
 # COPYING FILES AND CREATING DIRECTORIES
 mkdir /root/.jupyter
