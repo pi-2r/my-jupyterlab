@@ -42,6 +42,7 @@ pip install apscheduler #Advanced Python Scheduler
 pip install config
 pip install pandas-ta #Technical Analysis Indicators
 pip install Riskfolio-Lib #Riskfolio-Lib is a Python library for financial risk analysis.
+pip install pyqlib #QuantLib Python bindings: https://github.com/microsoft/qlib
 
 # COPYING FILES AND CREATING DIRECTORIES
 mkdir /root/.jupyter
